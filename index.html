@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#conteudo").hide();
+
+            $("#link_abre").click(function () {
+
+                $("#conteudo").slideToggle("slow");
+
+            });
+        });
+        $(document).ready(function () {
+
+            $("#conteudo1").hide();
+
+            $("#link_abre1").click(function () {
+
+                $("#conteudo1").slideToggle("slow");
+
+            });
+        });
+        $(document).ready(function () {
+
+            $("#conteudo2").hide();
+
+            $("#link_abre2").click(function () {
+
+                $("#conteudo2").slideToggle("slow");
+
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="esquerda">
+        <div id="fundo">
+            <div id="left">
+                <div id="container">
+
+                    <div id="titulo">
+                        Teste de Jquery
+                        <a id="link_abre" href="#">Clique Aqui</a>
+                    </div>
+
+                    <div id="conteudo">
+                        <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em
+                            páginas
+                            web
+                        </p>
+
+                    </div>
+                </div>
+                <br>
+                <div id="container1">
+
+                    <div id="titulo1">
+                        Teste de Html
+                        <a id="link_abre1" href="#">Clique Aqui</a>
+                    </div>
+
+                    <div id="conteudo1">
+                        <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em
+                            páginas
+                            web
+                        </p>
+
+                    </div>
+                </div>
+                <br>
+                <div id="container2">
+
+                    <div id="titulo2">
+                        Teste de Jquery
+                        <a id="link_abre2" href="#">Clique Aqui</a>
+                    </div>
+
+                    <div id="conteudo2">
+                        <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em
+                            páginas
+                            web
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <p>Página de Jquery</p><img src="https://miro.medium.com/max/1400/0*bQ2s1lDGEYzGjWVU">
+            </div>
+        </div>
+</body>
+
+</html>
